@@ -5,11 +5,75 @@
     <head>
         <meta charset="UTF-8" lang="en">
         <title>Landing Page</title>
+        <link rel="stylesheet" href="./css/styles.css">
     </head>
 
     <body>
+
+        <div class="container">
+            <div class="top-container">
+                <nav class="nav-bar">
+                    <a href="#" class="logo">Header Logo</a>
+                    <a href="#">Link one</a>
+                    <a href="#">Link two</a>
+                    <a href="#">Link three</a>
+                </nav>
+                <div class="content-container">
+                    <div class="content-left">
+                        <h1 class="hero-text">This website is awesome</h1>
+                        <p>This website has some subtext that goes under the main title.
+                            It's smaller font and the color is lower contrast.
+                        </p>
+                        <button type="submit">Sign Up</button>
+                    </div>
+                    <div class="content-right">
+                        <p class="image-placeholder">This is a placeholder for an image</p>
+                    </div>
+                </div>
+            </div>
+            <div class="middle-container">
+                <h2>Some random information</h2>
+                <div class="blank-content-boxes">
+                    <div class="box">
+                        <p>this is some subtext under an illustration or an image</p>
+                    </div>
+                    <div class="box">
+                        <p>this is some subtext under an illustration or an image</p>
+                    </div>
+                    <div class="box">
+                        <p>this is some subtext under an illustration or an image</p>
+                    </div>
+                    <div class="box">
+                        <p>this is some subtext under an illustration or an image</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <h2 class="quote">
+                    This is an inspiring quote, or testimonial from a customer.
+                    Maybe it's just filling up space, or maybe people will actually read it. Who knows?
+                    All I know is that it looks nice.
+                </h2>
+                <p>
+                    -Thor, God of Thunder
+                </p>
+
+                <div class="action-statement">
+                    <h3>Call to action! It's time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                    <button type="submit">Sign up</button>
+                </div>
+            </div>
+        </div>
         
     </body>
+
+    <footer>
+        <p> © Copyright Manuel Rodriguez <span id="currentYear"></span></p>
+        <script>
+            document.getElementById("currentYear").textContent = new Date().getFullYear();
+        </script>
+    </footer>
 
 
 </html>
