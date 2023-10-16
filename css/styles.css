@@ -67,14 +67,9 @@ footer {
     display: flex;
     margin-left: 5px;
     width: 50%;
-    /* height: 50%; */
     text-align: center;
     background-color: gray;
 }
-
-/* .image-placeholder {
-    background-color: #1F2937;
-} */
 
 .top-container .hero-text {
     font-size: 48px;
