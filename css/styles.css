@@ -51,7 +51,6 @@ footer {
 .content-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-direction: row;
     margin: 10px;
 }
@@ -65,10 +64,10 @@ footer {
 
 .content-right {
     display: flex;
-    margin-left: 5px;
+    margin: 5px;
     width: 50%;
     text-align: center;
-    background-color: gray;
+    align-items: center;
 }
 
 .top-container .hero-text {
@@ -88,6 +87,9 @@ footer {
     background-color: grey;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle-container h2 {
