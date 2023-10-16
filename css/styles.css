@@ -6,7 +6,7 @@
 button {
     background-color: #3882F6;
     color: white;
-    font-weight: bold
+    font-weight: bold;
 }
 
 footer {
@@ -50,9 +50,7 @@ footer {
 
 .content-container {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    margin: 10px;
 }
 
 .content-left {
@@ -67,13 +65,17 @@ footer {
     margin: 5px;
     width: 50%;
     text-align: center;
-    align-items: center;
 }
 
-.top-container .hero-text {
+.hero-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-subtext {
+    margin-bottom: 10px;
 }
 
 .top-container p {
