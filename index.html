@@ -68,14 +68,18 @@
                     Maybe it's just filling up space, or maybe people will actually read it. Who knows?
                     All I know is that it looks nice.
                 </h2>
-                <p>
+                <p class="quote-author">
                     -Thor, God of Thunder
                 </p>
 
                 <div class="action-statement">
-                    <h3>Call to action! It's time!</h3>
-                    <p>Sign up for our product by clicking that button right over there!</p>
-                    <button type="submit">Sign up</button>
+                    <div class="action-statement-left">
+                        <h3>Call to action! It's time!</h3>
+                        <p>Sign up for our product by clicking that button right over there!</p>
+                    </div>
+                    <div class="action-statement-right">
+                        <button class="action-button" type="submit">Sign up</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -83,7 +87,7 @@
     </body>
 
     <footer>
-        <p> © Copyright Manuel Rodriguez <span id="currentYear"></span></p>
+        <p class="copyright"> © Copyright Manuel Rodriguez <span id="currentYear"></span></p>
         <script>
             document.getElementById("currentYear").textContent = new Date().getFullYear();
         </script>
