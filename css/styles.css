@@ -6,7 +6,7 @@
 button {
     background-color: #3882F6;
     color: white;
-    font-weight: bold
+    font-weight: bold;
 }
 
 footer {
@@ -15,12 +15,67 @@ footer {
 
 .top-container {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1%;
 }
 
-.top-container .hero-text {
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.links {
+    margin-left: 10px;
+    padding: 1.5%;
+}
+
+.links a {
+    padding: 10px;
+    color: #E5E7EB;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 1%;
+}
+
+.content-right {
+    display: flex;
+    margin: 5px;
+    width: 50%;
+    text-align: center;
+}
+
+.hero-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 10px;
+}
+
+.hero-subtext {
+    margin-bottom: 10px;
 }
 
 .top-container p {
@@ -31,6 +86,12 @@ footer {
 .top-container .image-placeholder {
     font-size: 24px;
     color: #F9FAF8;
+    background-color: grey;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .middle-container h2 {
