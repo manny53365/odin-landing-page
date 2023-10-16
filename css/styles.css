@@ -11,7 +11,12 @@ button {
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #1F2937;
+    height: 100px;
+    color: white;
 }
 
 .top-container {
@@ -152,3 +157,40 @@ footer {
     margin-right: 30%;
     font-weight: bold;
 }
+
+.action-statement {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1% 25%;
+    background-color: #3882F6;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.action-statement-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5%;
+    width: 50%;
+    color: white;
+}
+
+.action-statement-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.action-button {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 60%;
+}
+
+/* .copyright {
+    margin-top: 20px;
+} */
